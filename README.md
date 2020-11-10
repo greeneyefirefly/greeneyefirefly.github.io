@@ -1,7 +1,8 @@
 CUNY SPS MSDS Data 608  
-Module #5  
 Samantha Deokinanan  
 
-The assignment script and data set can be found in [DATA608-Visual_Analytics](https://github.com/greeneyefirefly/DATA608-Visual_Analytics/tree/master/Assignment5) repo.
+The assignment scripts and data sets can be found in the [DATA608-Visual_Analytics](https://github.com/greeneyefirefly/DATA608-Visual_Analytics/tree/master/) repo.
 
-[GitHub Page](https://greeneyefirefly.github.io)
+[Module #5](https://greeneyefirefly.github.io)
+
+[Module #6](https://greeneyefirefly.github.io/module6/d3_lab.html)
