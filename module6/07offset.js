@@ -19,7 +19,7 @@ d3.csv('https://raw.githubusercontent.com/greeneyefirefly/DATA608-Visual_Analyti
         .range([20, 1180]);
     
     const yScale = d3.scaleLinear()
-        .domain([0, totalYmax])
+        .domain([-totalYmax/2, totalYmax/2])
         .range([580, 20]);
 
     const fillScale = d3.scaleOrdinal()
@@ -42,7 +42,6 @@ d3.csv('https://raw.githubusercontent.com/greeneyefirefly/DATA608-Visual_Analyti
         .enter().append('path')
         .attr('d', d => stackArea(d))
         .attr('class', d => 'path7')
-		.attr('transform', 'translate(0,-275)')
         .style('fill', d => fillScale(d.key));
 
 });
